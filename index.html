@@ -1,26 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-
-  <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
-    <script  src="js/index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Fork Me! FCC: Test Suite Template</title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="main-body">
+    <header id="header" class="nav-container container">
+      <div class="logo" id="header-img">
+        <img
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+          alt="logo">
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#feature" class="nav-link">Features</a></li>
+          <li><a href="#work" class="nav-link">How it works</a></li>
+          <li><a href="#price" class="nav-link">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input type="email" id="email" placeholder="your email" required>
+          <button type="submit" id="submit">get started</button>
+        </form>
+      </section>
+      <section class="Features" id="feature">
+        <p>Features</p>
+      </section>
+      <section class="work" id="work">
+        <p>How it works</p>
+      </section>
+      <section class="price" id="price">
+        <p>Pricing</p>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <p>Copyright 2016, Original Trombones</p>
+      </div>
+    </footer>
+  </div>
+  <script
+    src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  <script src="js/index.js"></script>
+</body>
 </html>

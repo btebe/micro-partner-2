@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+picture {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  display: grid;
+  background-color: #eee;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+.main-body {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: min-content max-content min-content;
+  row-gap: 2rem;
+}
+
+.container {
+  padding-inline: 2em;
+  margin-inline: auto;
+  width: 100%;
+  max-width: 80rem;
+}
