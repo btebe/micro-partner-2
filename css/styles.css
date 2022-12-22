@@ -3,11 +3,13 @@
 .nav-container{
   display: flex;
   position: fixed;
+  top:0;
   padding-block: 1.5rem;
   justify-content: space-between;
   align-items: center;
   
 }
+
 
 
 main{

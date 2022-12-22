@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
   <title>Fork Me! FCC: Test Suite Template</title>
   <link rel="stylesheet" href="css/global.css">
@@ -9,8 +10,8 @@
 <body>
   <div class="main-body">
     <header id="header" class="nav-container container">
-      <div class="logo" id="header-img">
-        <img
+      <div class="logo">
+        <img id="header-img"
           src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
           alt="logo">
       </div>
@@ -25,8 +26,9 @@
     <main>
       <section class="hero">
         <form action="https://www.freecodecamp.com/email-submit" id="form">
-          <input type="email" id="email" placeholder="your email" required>
-          <button type="submit" id="submit">get started</button>
+          <input type="email" id="email" placeholder="your email" name="email"
+            required>
+          <input type="submit" value="get started" id="submit">
         </form>
       </section>
       <section class="Features" id="feature">
@@ -34,6 +36,8 @@
       </section>
       <section class="work" id="work">
         <p>How it works</p>
+        <iframe id="video" src="https://youtu.be/y8Yv4pnO7qc"
+          frameborder="0"></iframe>
       </section>
       <section class="price" id="price">
         <p>Pricing</p>
